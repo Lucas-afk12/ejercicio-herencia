@@ -135,6 +135,7 @@ const modificar = () => __awaiter(void 0, void 0, void 0, function* () {
                         break;
                     case 7:
                         a.fechaDeEncuentro = new Date(yield (0, entradaTeclado_1.leer)("Cambie la fecha donde fue encontrado el animal"));
+                        break;
                     case 8:
                         if (a instanceof Perro_1.Perro == true) {
                             perro.Aptocaza = yield (0, entradaTeclado_1.leer)("cambie si el animal es apto para caza o no");
