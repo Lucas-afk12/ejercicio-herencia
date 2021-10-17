@@ -176,6 +176,7 @@ const modificar = async() => {
                      break
                      case 7:
                      a.fechaDeEncuentro= new Date(await leer("Cambie la fecha donde fue encontrado el animal"))
+                     break
                      case 8:
                         if (a instanceof Perro == true){
                      perro.Aptocaza = await leer("cambie si el animal es apto para caza o no")
